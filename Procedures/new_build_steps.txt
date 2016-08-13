@@ -1,0 +1,27 @@
+To build a new version of NilServer_tablet executable (for ARM),
+  
+
+
+   1. In the make.opt file, 
+   	
+   	uncomment the line: export PLATFORM := arm
+	
+	and comment the line: export PLATFORM := Host
+
+
+   2. Set the NDK path in NDK variable, using export NDK.
+
+
+   3. start compilation by issuing command 
+   	make all
+
+
+   An executable by the name NilServer_tablet gets created.
+
+
+   Push it in /data/local/ which is the default path set for executable in NilServer Apk.
+
+   Push the Python files in Python folder specified in config_nilserver.txt . 
+
+
+

@@ -1,0 +1,10 @@
+Before installing NilServer Apk
+===============================
+
+
+1. Install Qpython apk on device. 
+   After installing Qpython, Open Qpython and install Numpy package support on it.
+   	a. Click on the right topmost menu button on UI > Select Libraries Manage > Install Numpy from the list.
+	b. Open console from the right bottom button.
+
+2. Now install the NilServer apk.  

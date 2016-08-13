@@ -1,0 +1,16 @@
+The default paths set in the config_nilserver.txt present in /data/local/ are:
+
+
+IncomingDirPath="/sdcard/MobileCEM/IncomingDir/"
+ProcessingDirPath="/sdcard/MobileCEM/ProcessingDir/"
+ProcessedDirPath="/sdcard/MobileCEM/ProcessedDir/"
+LogFilePath="/sdcard/MobileCEM/Log/"
+OutputDirPath="/sdcard/MobileCEM/OutputDir/"
+PythonDirPath="/sdcard/MobileCEM/Python/MainProcess.py"
+LocationInfoPath="/sdcard/MobileCEM/LocationInfo/"
+
+
+
+
+-- To change the set paths, change the paths in config_nilserver.txt and make the desired folders in the device as well.
+   Also push the python files in Python/ folder.
